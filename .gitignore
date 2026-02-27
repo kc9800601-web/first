@@ -1,0 +1,20 @@
+# 1. Arduino 编译产生的缓存和固件 (不需要上传，因为别人可以自己编译)
+build/
+*.hex
+*.bin
+*.elf
+*.o
+*.a
+
+# 2. 操作系统自动生成的隐藏垃圾文件 (Mac 和 Windows)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 3. 代码编辑器产生的本地配置 (比如 VS Code)
+.vscode/
+
+# 4. 如果你后期用 Python 写了接收数据的脚本，屏蔽 Python 缓存
+__pycache__/
+*.pyc
+.venv/
